@@ -1,8 +1,4 @@
 from transformers import AutoModelForCausalLM, AutoTokenizer
-from transformers.distributed import DistributedConfig
-import torch
-
-from transformers import AutoModelForCausalLM, AutoTokenizer
 import torch
 
 # Use GPT-2 Medium
